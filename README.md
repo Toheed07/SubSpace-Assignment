@@ -20,4 +20,4 @@ This project utilizes three key modules:
    - **Description:** Search for blogs based on a query parameter. Requires the `query` parameter for specifying the search query.
    - **Example Request:** `GET /api/blog-search?query=privacy`
 
-Caching is implemented for both the analytics and blog search functionality to improve performance. Analytics are cached for 5 minutes, while search results are cached for 2 minutes for each unique query.
+Caching is implemented for both the analytics and blog search functionality to improve performance.
